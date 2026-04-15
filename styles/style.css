@@ -6,11 +6,32 @@
 /*Body Type Face Formal*/
 :root {
   --bg-color: #d9d2e5 /*dusty purple*/;
-  --text-color: ##feffff /*off white*/;
+  --text-color: #feffff /*off white*/;
   --bg-box-color: #114232 /* dark green*/;
 }
 body {
   background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.navbar-brand {
+  font-family: Bodoni Moda SC;
+  font-size: 3rem;
+  color: var(--bg-box-color);
+}
+.navbar-brand img {
+  width: 100px;
+}
+.nav-item {
+  border: 1.5px solid #114232;
+  border-radius: 15px;
+  padding: 10px 20px;
+  background-color: #114232;
+  font-family: Bodoni Moda SC;
+  color: var(--text-color);
+  font-size: large;
+}
+.nav-link {
   color: var(--text-color);
 }
 .carousel-inner img {
@@ -26,7 +47,7 @@ body {
 }
 /* Hero Section */
 .hero-section {
-  background: url(../images/bluecat.webp);
+  background: #d9d2e5;
   background-size: cover;
   background-position: 50%, 50%;
   height: 100vh;
@@ -82,4 +103,12 @@ h2 {
 }
 .modal-body img {
   width: 92%;
+}
+footer {
+  background-color: var(--text-color);
+  color: var(--bg-box-color);
+  padding: 2rem;
+}
+footer h3 {
+  color: var(--bg-box-color);
 }
