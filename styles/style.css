@@ -34,23 +34,13 @@ body {
 .nav-link {
   color: var(--text-color);
 }
-.carousel-inner img {
-  width: 100%;
-  aspect-ratio: 16/9;
-  object-fit: cover;
-}
-.carousel-control-prev-icon {
-  background: var(--bg-box-color);
-}
-.carousel-control-next-icon {
-  background: var(--bg-color);
-}
+
 /* Hero Section */
 .hero-section {
   background: #d9d2e5;
   background-size: cover;
   background-position: 50%, 50%;
-  height: 100vh;
+  height: 15vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,6 +56,13 @@ body {
   font-family: Tektur;
   color: var(--bg-color);
 }
+.col {
+  background-color: #114232;
+}
+.col {
+  background-color: #114232;
+}
+
 h2,
 h3,
 h4,
@@ -101,13 +98,14 @@ h2 {
   font-weight: 700;
   color: var(--text-color);
 }
-.modal-body img {
-  width: 92%;
-}
 footer {
   background-color: var(--text-color);
   color: var(--bg-box-color);
   padding: 2rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 footer h3 {
   color: var(--bg-box-color);
