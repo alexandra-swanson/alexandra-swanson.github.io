@@ -58,11 +58,11 @@ body {
 }
 .col {
   background-color: #114232;
+  padding: 1.5rem;
 }
-.col {
-  background-color: #114232;
+.col-img {
+  height: 100px;
 }
-
 h2,
 h3,
 h4,
