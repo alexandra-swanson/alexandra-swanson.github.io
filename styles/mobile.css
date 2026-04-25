@@ -1,0 +1,5 @@
+/* this is a media query that will apply the styles you add only at certain breakpoints. this one is set up to target screens with a maximum width of 768px — which is the bootstrap 'md' breakpoint. you can adjust that number to be anything. */
+
+@media only screen and (max-width: 768px) {
+  /* mobile specific styling rules here */
+}
