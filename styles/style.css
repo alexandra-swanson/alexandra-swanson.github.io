@@ -94,6 +94,9 @@ body {
   color: var(--bg-color);
 }
 /*Home*/
+#biography .row {
+  margin-bottom: 2rem;
+}
 .col-md {
   padding: 2rem;
 }
@@ -110,7 +113,6 @@ body {
 .col-md-1 img {
   height: 100%;
   width: 100%;
-  aspect-ratio: 1/1;
 }
 h2,
 h3,
@@ -149,9 +151,12 @@ h2 {
 }
 /*Collage*/
 .carousel-inner img {
-  width: 50%;
+  width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
+}
+.container.collage-size {
+  max-width: 700px;
 }
 .portfolio {
   display: grid;
@@ -303,9 +308,6 @@ footer {
   color: var(--bg-box-color);
   background-color: #d9d2e5;
   padding: 1rem;
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   border-top: 3px solid #114232;
   margin-top: 50px;

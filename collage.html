@@ -31,7 +31,7 @@
 
   <body>
     <!-- navbar with a drop down that collapses on screens smaller than medium width -->
-    <nav class="navbar navbar-expand-md fixed-top">
+    <nav class="navbar navbar-expand-md">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="images/Logo.webp" />
@@ -92,43 +92,46 @@
     </section>
 
     <!-- Work Section -->
-    <section id="work" class="py-5 sans-serif"></section>
-    <div id="catCarousel" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/bluecat.webp" />
-          <p>Caption caption caption</p>
-        </div>
-        <div class="carousel-item">
-          <img src="images/catfriend.webp" />
-        </div>
-        <div class="carousel-item">
-          <img src="images/catkeyboard.webp" />
-        </div>
-        <div class="carousel-item">
-          <img src="images/sunflowercat.webp" />
-        </div>
-        <div class="carousel-item">
-          <img src="images/orangecat.webp" />
+    <section id="work" class="py-5 sans-serif">
+      <div class="container collage-size">
+        <div id="catCarousel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/bluecat.webp" />
+              <p>Caption caption caption</p>
+            </div>
+            <div class="carousel-item">
+              <img src="images/catfriend.webp" />
+            </div>
+            <div class="carousel-item">
+              <img src="images/catkeyboard.webp" />
+            </div>
+            <div class="carousel-item">
+              <img src="images/sunflowercat.webp" />
+            </div>
+            <div class="carousel-item">
+              <img src="images/orangecat.webp" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#catCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#catCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#catCarousel"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#catCarousel"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      </button>
-    </div>
+    </section>
     <section class="portfolio">
       <div class="card">
         <img src="images/bluecat.webp" alt="Book cover design" />
