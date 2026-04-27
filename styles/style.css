@@ -38,6 +38,18 @@ body {
   letter-spacing: 1px;
 }
 
+.nav-item.home {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.nav-item.collage {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.nav-item.selected {
+  background-color: #ffffff;
+  color: #1f4d3a;
+}
 /* Active tab */
 .nav-item.active {
   background: #1f4d3a;
