@@ -13,7 +13,7 @@
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 .navbar-brand {
@@ -98,6 +98,16 @@ body {
 /*Home*/
 #biography .row {
   margin-bottom: 2rem;
+}
+.nav-item.button {
+  margin: 0 auto;
+  color: #feffff;
+  border-radius: 20px;
+  display: block;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 .col-md {
   padding: 2rem;
