@@ -29,13 +29,14 @@ body {
   overflow: hidden;
 }
 .nav-item {
-  padding: 10px 24px;
+  padding: 5px 12px;
   text-decoration: none;
   color: #1f4d3a;
   background: #1f4d3a;
-  border-right: 2px solid #1f4d3a;
+  border: 1px solid #1f4d3a;
   font-size: 20px;
   letter-spacing: 1px;
+  font-family: Bodoni Moda SC;
 }
 
 .nav-item.home {
@@ -48,6 +49,9 @@ body {
 }
 .nav-item.selected {
   background-color: #ffffff;
+  color: #1f4d3a;
+}
+.nav-item.selected .nav-link {
   color: #1f4d3a;
 }
 /* Active tab */
