@@ -136,6 +136,13 @@ img {
   font-size: 5rem;
   color: #114232;
 }
+h1 {
+  font-family: Bodoni Moda SC;
+  font-weight: lighter;
+  font-size: 3rem;
+  color: #114232;
+  padding-left: 8rem;
+}
 h2,
 h3,
 h4,
