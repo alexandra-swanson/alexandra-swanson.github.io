@@ -182,11 +182,11 @@ h2 {
 /*Collage*/
 .carousel-inner img {
   width: 100%;
-  /*aspect-ratio: 16/9;*/
+  aspect-ratio: 1/1;
   object-fit: cover;
 }
 .container.collage-size {
-  max-width: 250px;
+  max-width: 400px;
   object-fit: cover;
 }
 .portfolio {
