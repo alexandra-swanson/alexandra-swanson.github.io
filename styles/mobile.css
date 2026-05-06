@@ -2,4 +2,16 @@
 
 @media only screen and (max-width: 768px) {
   /* mobile specific styling rules here */
+
+  .navbar-brand img {
+    width: 45px;
+  }
+
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+  div.row .green {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
 }
