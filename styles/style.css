@@ -217,6 +217,7 @@ h2 {
   width: 100%;
   aspect-ratio: 1/1;
   object-fit: cover;
+  border: none;
 }
 .container.collage-size {
   max-width: 400px;
@@ -254,6 +255,7 @@ h2 {
   padding-left: 1rem;
 }
 /*Resume*/
+
 .pdf-wrapper {
   width: 100%;
   max-width: 1000px;
@@ -295,7 +297,8 @@ h2 {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border: 1px solid #333;
+  border: none;
+  padding-bottom: 2rem;
 }
 .case img.not-sqaure {
   aspect-ratio: auto;
@@ -306,6 +309,7 @@ h2 {
   font-weight: normal;
   color: #114232; /* green tone */
   font-size: 25px;
+  padding-left: 1rem;
 }
 
 .case .text p {
@@ -313,6 +317,8 @@ h2 {
   color: #114232;
   line-height: 1.6;
   font-size: 20px;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
   line-height: 1.7rem;
   font-family: "Barlow Condensed";
 }
