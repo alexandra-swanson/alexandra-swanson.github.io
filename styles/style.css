@@ -75,6 +75,12 @@ body {
   color: var(--text-color);
 }
 
+/* Show dropdown on hover  */
+.dropdown:hover .dropdown-menu {
+    display: block;
+    /* margin-top: 0; */
+ }
+
 /* Hero Section */
 .hero-section {
   background: #d9d2e5;
