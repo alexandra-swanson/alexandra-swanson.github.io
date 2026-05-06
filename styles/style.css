@@ -274,7 +274,9 @@ h2 {
   object-fit: cover;
   border: 1px solid #333;
 }
-
+.case img.not-sqaure {
+  aspect-ratio: auto;
+}
 /* TEXT */
 .case .text h3 {
   margin: 0 0 15px;
