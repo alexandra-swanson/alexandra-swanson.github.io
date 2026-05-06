@@ -104,6 +104,10 @@ body {
 }
 
 /*Home*/
+.arrow {
+  border: none;
+  width: 10%;
+}
 #biography .row {
   margin-bottom: 2rem;
 }
@@ -191,6 +195,24 @@ h2 {
 }
 /*Collage*/
 
+.previous {
+  transform: rotate(90deg);
+  border: none;
+  width: 150%;
+}
+.next {
+  transform: rotate(-90deg);
+  border: none;
+  width: 150%;
+}
+.carousel-control-next {
+  right: -90px;
+  opacity: 1;
+}
+.carousel-control-prev {
+  left: -90px;
+  opacity: 1;
+}
 .carousel-inner img {
   width: 100%;
   aspect-ratio: 1/1;
@@ -365,4 +387,8 @@ footer {
 }
 footer h3 {
   color: var(--bg-box-color);
+}
+
+.youtube {
+  width: 100%;
 }

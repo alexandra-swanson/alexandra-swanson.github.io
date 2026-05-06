@@ -21,4 +21,12 @@
   footer h3 {
     font-size: 1rem;
   }
+  .carousel-control-next {
+    right: 0px;
+    opacity: 1;
+  }
+  .carousel-control-prev {
+    left: 0px;
+    opacity: 1;
+  }
 }
