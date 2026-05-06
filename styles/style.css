@@ -190,6 +190,7 @@ h2 {
   color: var(--text-color);
 }
 /*Collage*/
+
 .carousel-inner img {
   width: 100%;
   aspect-ratio: 1/1;
