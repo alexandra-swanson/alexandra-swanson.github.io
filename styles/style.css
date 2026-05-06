@@ -239,17 +239,16 @@ h2 {
 .case-studies {
   max-width: 1100px;
   margin: 80px auto;
-  display: flex;
-  flex-direction: column;
-  gap: 100px;
+  width: 90%;
+}
+
+.case-studies div.row {
+  margin-bottom: 2em;
 }
 
 /* EACH ROW */
 .case {
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 60px;
-  align-items: start;
+  color: #114232;
 }
 
 /* REVERSE LAYOUT */
