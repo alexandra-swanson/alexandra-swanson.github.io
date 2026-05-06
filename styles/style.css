@@ -77,9 +77,10 @@ body {
 
 /* Show dropdown on hover  */
 .dropdown:hover .dropdown-menu {
-    display: block;
-    /* margin-top: 0; */
- }
+  display: block;
+  left: 0;
+  top: 100%;
+}
 
 /* Hero Section */
 .hero-section {
