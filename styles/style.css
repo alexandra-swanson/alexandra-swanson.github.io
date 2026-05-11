@@ -383,18 +383,73 @@ h2 {
     max-width: 300px;
   }
 }
-footer {
+/*footer {
   color: var(--bg-box-color);
   background-color: #d9d2e5;
   padding: 1rem;
   width: 100%;
-  border-top: 3px solid #114232;
+
   margin-top: 50px;
 }
 footer h3 {
   color: var(--bg-box-color);
 }
-
+*/
 .youtube {
   width: 100%;
+}
+/* ONLY styles the footer */
+.custom-footer-wrapper {
+  padding: 20px;
+  border-top: 3px solid #114232;
+}
+
+.footer-text {
+  margin: 0;
+  padding-left: 3.5rem;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 600;
+  color: #114232;
+  font-family: "Bodoni Moda SC";
+}
+
+/* Social Icons */
+.social-icon {
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: 10px;
+  color: white;
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: translateY(-3px);
+}
+
+/* Individual icon colors */
+.email {
+  background: #4a4a4a;
+}
+
+.facebook {
+  background: #3b5998;
+}
+
+.instagram {
+  background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+}
+
+.linkedin {
+  background: #0077b5;
+}
+.footer-icons {
+  text-align: right;
+  transform: translateX(-4.3rem);
 }
