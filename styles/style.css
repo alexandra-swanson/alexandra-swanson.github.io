@@ -17,7 +17,7 @@ body {
 }
 
 .navbar-brand {
-  font-family: Bodoni Moda SC;
+  font-family: "Bodoni Moda SC";
   font-size: 3rem;
   color: var(--bg-box-color);
 }
@@ -39,7 +39,7 @@ body {
   border: 1px solid #114232;
   font-size: 20px;
   letter-spacing: 1px;
-  font-family: Bodoni Moda SC;
+  font-family: "Bodoni Moda SC";
 }
 
 .nav-item.home {
@@ -245,16 +245,19 @@ h2 {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border: 1px solid #114232;
+  border: 2px #114232;
+  border-radius: 5px;
 }
 
 .card p {
   margin-top: 12px;
   color: #114232;
-  font-style: italic;
+  font-style: normal;
   line-height: 1.4;
   padding-left: 1rem;
+  padding-right: 1rem;
 }
+
 /*Resume*/
 
 .pdf-wrapper {

@@ -1,0 +1,38 @@
+/* Make lightbox / modal content scrollable when taller than the viewport */
+/* Targets Bootstrap modals and common lightbox structures */
+.modal-dialog {
+  max-width: 95vw;
+  margin: 1.75rem auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content {
+  max-height: 90vh;
+  overflow: hidden;
+}
+.modal-body {
+  overflow: auto;
+  max-height: calc(90vh - 3rem);
+  -webkit-overflow-scrolling: touch;
+}
+.modal-body img,
+.modal-content img,
+.lightbox img,
+.lb-image img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: calc(90vh - 3rem);
+  display: block;
+  margin: 0 auto;
+}
+
+/* Fallback for other lightbox implementations that use a scrolling container */
+.lightbox,
+.lightbox-backdrop,
+.lb-outer {
+  max-height: 90vh;
+  overflow: auto;
+}
